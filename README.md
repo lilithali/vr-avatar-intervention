@@ -7,18 +7,13 @@ The project uses a virtual avatar to externalise a self-critical inner voice and
 The system was developed as part of a research project and was pilot-tested with nine participants.
 
 ---
-
 ## Project Overview
 
-Self-critical thoughts can often feel automatic and difficult to distance from. This project explores whether representing this internal critical voice as an external virtual character can help participants interact with it from a different perspective.
+Self-critical thoughts can often feel automatic and difficult to distance from. This project explores whether representing an internal critical voice as an external virtual character can help participants interact with it from a different perspective.
 
-The VR experience uses three roles:
+During the experience, the avatar represents a self-critical voice and speaks directly to the participant. The participant is then encouraged to respond to the avatar, creating a face-to-face dialogue with an externalised representation of their self-critical thoughts.
 
-- **Critic** — represents the participant's self-critical voice
-- **Participant** — responds directly to the critic
-- **Guide** — provides structured prompts during the interaction
-
-Rather than presenting the avatar as a passive animated character, the project focuses on making the interaction feel socially responsive through speech-driven facial animation, eye contact, head movement and spatial presence.
+The technical focus of the project is to make this interaction feel socially responsive through speech-driven facial animation, gaze behaviour, subtle head movement and immersive spatial presence.
 
 ---
 
@@ -30,23 +25,23 @@ Rather than presenting the avatar as a passive animated character, the project f
 - Jaw, upper-lip and mouth-corner movement driven by speech
 - Blinking, eyebrow, cheek and subtle head-motion behaviours
 - Avatar gaze tracking to maintain eye contact with seated participants
-- Structured Critic–Participant–Guide dialogue
 - Synchronized speech audio and subtitles
 - Pilot study conducted with **9 participants**
-- Iterative design improvements based on participant feedback
-
 ---
 
 ## Demo
 
-### Avatar Interaction Demo
+### Demo 1 — Unity Avatar Animation
 
 [▶ Watch Demo 1](demo/avatar_demo1.mp4)
 
+Recorded directly in Unity, this demo shows the avatar animation system, including speech-driven lip synchronisation, facial movement, blinking and subtle head motion.
+
+### Demo 2 — VR Experience
+
 [▶ Watch Demo 2](demo/avatar_demo2.mp4)
 
-The videos demonstrate the avatar during the VR interaction, including speech-driven lip synchronisation, facial animation and the virtual environment used in the study.
-
+Recorded from the VR experience, this demo shows how the avatar appears to the participant inside the immersive environment during the study.
 ---
 
 ## My Contributions
@@ -102,35 +97,31 @@ This allows the avatar to dynamically adjust its gaze towards the participant's 
 
 ## Interaction Design
 
-The dialogue is structured around an externalised self-critical voice.
+The avatar represents an externalised version of the participant's self-critical voice.
 
-A typical interaction follows this progression:
+During the interaction, the avatar expresses self-critical thoughts directly to the participant. The participant then responds verbally to the avatar, allowing the internal critical voice to become something that can be observed and addressed as a separate conversational partner.
 
-1. The **Critic** expresses a self-critical thought.
-2. The **Guide** helps the participant notice the thought without immediately arguing against it.
-3. The **Participant** responds to the critic and explores what the critical voice may be trying to protect them from.
-4. The interaction gradually shifts from confrontation towards curiosity and self-compassion.
+As the dialogue progresses, the participant is encouraged to explore the intention behind the critical voice and respond from a more reflective and compassionate perspective.
 
-This structure allows the avatar to function as a virtual social other rather than simply presenting written therapeutic prompts.
-
+Guidance during the study was provided separately by the experimenter and was not part of the avatar system itself.
 ---
 
 ## Pilot Study
 
 The prototype was evaluated in a pilot study with **nine participants**.
 
-The purpose of the pilot was primarily to evaluate the interaction design and identify usability issues rather than to test clinical effectiveness.
+The pilot was used to assess the usability and presentation of the VR experience and to identify issues in the study procedure and avatar interaction.
 
-Participant feedback highlighted several areas for improvement, including:
+Participant feedback highlighted several areas for future improvement, including:
 
-- providing more context before the avatar conversation begins
+- providing clearer context before the avatar conversation begins
 - increasing eye contact between the avatar and participant
-- reducing interruptions from the guide during the main dialogue
-- separating guidance from the avatar conversation more clearly
+- reducing interruptions during the main conversation
+- separating experimenter guidance more clearly from the avatar dialogue
 - improving the clarity of questionnaire wording
-- exploring more personalised and responsive dialogue in future versions
+- exploring more personalised dialogue in future versions
 
-The feedback was used to guide subsequent iterations of the avatar behaviour and study procedure.
+The pilot primarily served as a feasibility and design evaluation rather than an assessment of clinical effectiveness.
 
 ---
 
